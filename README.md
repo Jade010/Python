@@ -1,2 +1,2 @@
-# Python
-This is my Python portfolio full of research I've completed for data analysis.
+# Python Portfolio
+This repository contains my Python projects and code snippets.
