@@ -1,3 +1,8 @@
+'''
+Author: Jade Aidoghie
+Creation Date: 8/21/2023
+'''
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter import scrolledtext, font
