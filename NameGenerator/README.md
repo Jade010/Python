@@ -17,3 +17,6 @@ The Name Generator is a Python-based tool designed to creatively generate random
 1. The program efficiently reads and processes names from text files using list comprehensions. This approach ensures that names are handled in a memory efficient manner while capitalizing them for consistent formatting.
 2. The application leverages the Tkinter library to provide a graphical user interface (GUI), making it user-friendly and accessible. This demonstrates proficiency in integrating Python with GUI frameworks.
 3. Incorporates interactive elements such as radio buttons, dropdown menus, and text input fields to capture user preferences. This showcases the ability to create dynamic and responsive UI elements.
+
+## Author
+Jade Aidoghie
