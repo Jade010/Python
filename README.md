@@ -1,12 +1,14 @@
-# Python Portfolio
+# Python Portfolio Repository
 
 ## Overview
-Welcome to my Python portfolio! This repository showcases a range of projects and research I have conducted, reflecting my skills and interests in data analytics, information technology, and more. Below, you'll find a brief overview of each project.
+Welcome to my Python portfolio! This repository showcases projects and skills in data analysis, demonstrating my proficiency in Python and various data handeling techniques. Each project in this portfolio represents my ability to import, clean, transform, visualize, and analyze data to identify patterns and insights. 
 
-## Skills
-- Data Analysis
+## Portfolio Scope
+This portfolio encompasses a range of projects that collectively demonstrate my skills in:
+- Data Cleaning & Preprocessing
+- Data Visualizing
+- Data Mining
 - Machine Learning
-- GUI Development
-- Data Visualization
-- Statistical Analysis
+- Data Storage & Retrieval
+- Statistical Analysis & Modeling
 
