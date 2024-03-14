@@ -4,13 +4,13 @@
 This project involves a thorough analysis of a large movie dataset, focusing on uncovering trends and insights in the film industry. The analysis covers various aspects such as financial performance (profit and budget), director influence, content ratings, and audience reception (IMDb scores). The goal is to understand what factors contribute to the succss of a movie.
 
 ## Key Features
-- Data Cleaning:
-- Exploratory Data Analysis (EDA):
-- Financial Analysis:
-- IMDb Ratings Analysis:
-- Directorial Impact:
-- Genre Based Trends:
-- Visualizations:
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Financial Analysis
+- IMDb Ratings Analysis
+- Directorial Impact
+- Genre Based Trends
+- Visualizations
 
 ## Data Description
 The data includes a variety of features about movies, including:
