@@ -1,4 +1,4 @@
-# Movie Dataset Analysis
+# IMDb Analysis
 
 ## Project Overview
 This project involves a thorough analysis of a large movie dataset, focusing on uncovering trends and insights in the film industry. The analysis covers various aspects such as financial performance (profit and budget), director influence, content ratings, and audience reception (IMDb scores). The goal is to understand what factors contribute to the succss of a movie.
