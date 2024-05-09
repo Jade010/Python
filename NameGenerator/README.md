@@ -1,7 +1,7 @@
 # Name Generator App
 
 ## Overview
-The Name Generator is a fun and simple Python application designed to generate random names for a variety of purposes. I enjoy using randomized names for faux data, game characters, and creative writing so I developed this application to make the process easier. 
+This repository contains a Python script, NameGenerator.py, that utilizes the tkinter library to create a GUI application for generating random names. It can generate first names, last names, or both, based on the input files first-names.txt and last-names.txt. I really enjoy using randomized names for faux data, game characters, and creative writing so I developed this application to make the process easier. 
 
 ## Key Features
 - Ability to generate first names, last names, or full names based on user selection.
@@ -11,21 +11,18 @@ The Name Generator is a fun and simple Python application designed to generate r
 - The application uses the Tkinter library to provide a graphical user interface (GUI), making it user-friendly and accessible.
 - Incorporates interactive elements such as radio buttons, dropdown menus, and text input fields to capture user preferences.
 
-## How to Use
-This section provides instructions on how to set up and run the Python application included in this repository.
+## Prerequisites
+Make sure you have Python installed on your system. This script requires the tkinter module, which is included in standard Python installations.
 
-### Prerequisites
-Before you begin, make sure you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+## Setup
+1. Clone the repository or download the files into your local machine.
+2. Ensure that the files first-names.txt and last-names.txt are in the same directory as the script. These files should contain a list of first names and last names respectively, one per line.
 
-### Installation
-1. **Clone the Repository**
-   To get started, clone this repository to your local machine by running the following command in your terminal:
+## Running the Application
+To run the application, follow these steps:
 
-   ```bash
-   git clone https://github.com/your-username/your-repository-name.git
-   cd your-repository-name
-2. **Install Required Libraries**
+    Open your terminal or command prompt.
+    Navigate to the directory containing NameGenerator.py.
+    Run the script by entering the following command:
 
-
-## Author
-Jade Aidoghie
+python NameGenerator.py
