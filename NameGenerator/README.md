@@ -12,9 +12,19 @@ The Name Generator is a fun and simple Python application designed to generate r
 - Incorporates interactive elements such as radio buttons, dropdown menus, and text input fields to capture user preferences.
 
 ## How to Use
-2. Start the Program: This project requires Python. Run NameGenerator.py in a Python environment.
-3. Choose the Name Type: Select from first names, last names, or full names.
-4. Receive Names: Generated names are displayed instantly.
+This section provides instructions on how to set up and run the Python application included in this repository.
+
+### Prerequisites
+Before you begin, make sure you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+
+### Installation
+1. **Clone the Repository**
+   To get started, clone this repository to your local machine by running the following command in your terminal:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   cd your-repository-name
+2. **Install Required Libraries**
 
 
 ## Author
