@@ -21,8 +21,8 @@ Make sure you have Python installed on your system. This script requires the tki
 ## Running the Application
 To run the application, follow these steps:
 
-    Open your terminal or command prompt.
-    Navigate to the directory containing NameGenerator.py.
-    Run the script by entering the following command:
+1. Open your terminal or command prompt.
+2. Navigate to the directory containing NameGenerator.py.
+3. Run the script by entering the following command:
 
-python NameGenerator.py
+       python NameGenerator.py
