@@ -26,3 +26,6 @@ To run the application, follow these steps:
 3. Run the script by entering the following command:
 
        python NameGenerator.py
+
+## Future Updates
+Currently, I'm unsatisfied with the data I have for the application. It works for now, but in a future development I would like users to be able to choose what types of names they would like (Fantasy names, Regional names, etc.). I would like to get better results for this as well, so I plan on web scraping for names using Beautiful Soup library in Python. This is currently a hobby project so a specific date for this isn't set.
