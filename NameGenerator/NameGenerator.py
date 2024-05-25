@@ -3,8 +3,9 @@ Name Generator Application
 Author: Jade Aidoghie
 Date: 3/3/24
 
-This is an updated and modernized version of an older project I worked on. It includes an updated aesthetic using custometkiner
-as well as more features for filtering names. 
+This is an updated and modernized version of an older project I worked on. It includes updated aesthetics using customtkiner
+as well as more features for filtering names. A text file is used for last names while a cleaned dataset is used for first 
+names so the can be filtered by gender.
 
 '''
 
