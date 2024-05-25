@@ -13,7 +13,7 @@ This project involves a thorough analysis of a large movie dataset, focusing on 
 - Visualizations
 
 ## Data Description
-The data includes a variety of features about movies, including:
+The data includes a variety of features about movies from 1916-2016, including:
 - Basic information like movie titles, directors, title year, and cast names.
 - Performance metrics such as IMDb scores and gross earnings.
 - Film attributes including genre, duration, country, and language.
