@@ -30,5 +30,3 @@ The data includes a variety of features about movies, including:
 ## Conclusion
 This analysis provides insights into the film industry, offering a data-driven perspective on what makes a movie successful.
 
-## Author
-Jade Aidoghie
