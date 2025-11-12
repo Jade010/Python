@@ -1,7 +1,7 @@
 # IMDb Analysis
 
 ## Project Overview
-This project involves a thorough analysis of a large movie dataset, focusing on uncovering trends and insights in the film industry. The analysis covers various aspects such as financial performance (profit and budget), director influence, content ratings, and audience reception (IMDb scores). The goal is to understand what factors contribute to the succss of a movie.
+This project presents my analysis of a large movie dataset aimed at uncovering key trends and insights within the film industry. It explores multiple dimensions, including financial performance (budget and profit), director influence, content ratings, and audience reception (IMDb scores). The primary goal is to identify the factors that drive a movie’s success.
 
 ## Key Features
 - Data Cleaning
@@ -12,8 +12,8 @@ This project involves a thorough analysis of a large movie dataset, focusing on 
 - Genre Based Trends
 - Visualizations
 
-## Data Description
-The data includes a variety of features about movies from 1916-2016, including:
+## The Data
+The dataset I'll be using includes a variety of features about movies from 1916-2016, including:
 - Basic information like movie titles, directors, title year, and cast names.
 - Performance metrics such as IMDb scores and gross earnings.
 - Film attributes including genre, duration, country, and language.
@@ -28,5 +28,5 @@ The data includes a variety of features about movies from 1916-2016, including:
 - Directors With The Most Movies: The director with the most movies in the dataset was Steven Spielberg with a total of more than 25 movies directed. The directors following Spielberg are Woody Allen, Clint Eastwood, Martin Scorsese, and Ridley Scott.
 
 ## Conclusion
-This analysis provides insights into the film industry, offering a data-driven perspective on what makes a movie successful.
+This analysis provides insights into the film industry, offering a data-driven perspective on what makes a movie successful. I found this pretty interesting and it gave me an idea of some movies I'd like to watch!
 
