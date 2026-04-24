@@ -7,7 +7,7 @@ This project involves predicting students' final grades in secondary education b
 
 ## Contents
 <details>
-<summary>NameGenerator.py</summary>
+<summary>student-mat.csv</summary>
 - Ability to generate first names, last names, or full names based on user selection.
 - First names can be filtered based on their gender (Option for feminine, masculine, or both).
 - To recieve more specific results, users can now choose the first letter on both first and last names.
@@ -19,7 +19,7 @@ This project involves predicting students' final grades in secondary education b
 </details>
 
 <details>
-<summary>NameGeneratorNotebook.ipynb</summary>
+<summary>GradePrediction.ipynb</summary>
 
 - Step by step Jupyter Notebook that contains detailed information on first name data.
 - Includes preliminary exploration of the original dataset.
