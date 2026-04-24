@@ -7,18 +7,13 @@ This project involves predicting students' final grades in secondary education b
 
 ## Contents
 <details>
-<summary>student-mat.csv</summary>
-- Student grade dataset in csv format
-</details>
-
-<details>
 <summary>GradePrediction.ipynb</summary>
 
-- Step by step Jupyter Notebook that contains detailed information on first name data.
+- Step by step Jupyter Notebook that contains detailed information on student grade analysis.
 - Includes preliminary exploration of the original dataset.
-- Data is prepared so that infrequent names are dropped from the data to prevent skewed results. Unnecessary columns were also dropped along with duplicates so that randomization is not affected by repeated values.
-- `cleaned_names.csv` is the new dataset created and imported into the application.
-- Visualization of how many female and male names are provided in the dataset with a brief report.
+- Selected features are split into testing and training data in preperation for linear regresson.
+- Using linear regression to predict student grades and comparison to real values.
+- Scatterplot visual showing prediction value vs actual value along with a residual plot.
 </details>
 
 
