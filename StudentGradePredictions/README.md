@@ -8,14 +8,7 @@ This project involves predicting students' final grades in secondary education b
 ## Contents
 <details>
 <summary>student-mat.csv</summary>
-- Ability to generate first names, last names, or full names based on user selection.
-- First names can be filtered based on their gender (Option for feminine, masculine, or both).
-- To recieve more specific results, users can now choose the first letter on both first and last names.
-- Users can specify the number of names to be generated.
-- Easy to use prompts guide the user through the name generation process.
-- The program reads and processes names from text files and capitalizes them for consistent formatting.
-- The application uses the customtkinter library to provide a graphical user interface (GUI), making it user-friendly and accessible.
-- Incorporates interactive elements such as radio buttons, dropdown menus, and text input fields to capture user preferences.
+- Student grade dataset in csv format
 </details>
 
 <details>
