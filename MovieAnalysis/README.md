@@ -1,7 +1,7 @@
 # IMDb Analysis
 
-## Project Overview
-This project presents my analysis of a large movie dataset aimed at uncovering key trends and insights within the film industry. It explores multiple dimensions, including financial performance (budget and profit), director influence, content ratings, and audience reception (IMDb scores). The primary goal is to identify the factors that drive a movie’s success.
+## Overview
+This project contains my analysis of a large movie dataset aimed at uncovering trends and insights within the film industry. It explores multiple dimensions, including financial performance (budget and profit), director influence, content ratings, and audience reception (IMDb scores). The primary goal is to identify the factors that drive a movie’s success.
 
 ## Key Features
 - Data Cleaning
