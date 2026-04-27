@@ -1,17 +1,13 @@
 # Restaurant Picker App
 
 ## Overview
-I love food and I can also be very indecisive about what I want to eat, usually this ends with my partner choosing for me. To solve this, I built a Python app to do it for me. This restaurant randomizer utilizes a samll restaurant dataset that I created in Excel. The app is able to filter by city and cuisine, previews options, and randomly selects a restaurant based on what I'm craving. Built with tkinter, pandas, and ttkbootstrap, with input validation and error handling.
+I love food and I can also be very indecisive about what I want to eat, usually this ends with my partner choosing for me. To solve this, I built a Python app to do it for me. This restaurant randomizer utilizes a samll restaurant dataset that I created in Excel. The app is able to filter by city and restaurant type, previews options, and randomly selects a restaurant based on what I'm craving. Built with tkinter, pandas, and ttkbootstrap, with input validation and error handling.
 
 ## Features
 * Import restaurant data from Excel files (.xlsx, .xls)
-* Dynamic filtering by:
-
-  * City
-  * Restaurant type (cuisine)
+* Dynamic filtering by city and restaurant type
 * Interactive table display of filtered results
 * Random restaurant selection with animated UI feedback
-* Clean, modern interface using ttkbootstrap
 
 ## File Structure
 
