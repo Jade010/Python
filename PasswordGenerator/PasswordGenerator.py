@@ -1,12 +1,3 @@
-'''
-Author: Jade Aidoghie
-Creation Date: 12/15/2023
-Description: This is a GUI based password generator. This will allow you to generate a password 
-between 8-15 characters long that has at least one Uppercase letter, lowercase letter, and number. 
-Once you generate a password you can copy it with a click of a button.
-'''
-
-
 import tkinter as tk
 from tkinter import messagebox
 import random
