@@ -13,12 +13,11 @@ I love food and I can also be very indecisive about what I want to eat, usually 
 * Random restaurant selection with animated UI feedback
 * Clean, modern interface using ttkbootstrap
 
-## Tech Stack
+## File Structure
 
-* Python
-* Tkinter (GUI framework)
-* ttkbootstrap (modern UI styling)
-* Pandas (data processing)
+* `RestaurantRandomizer.py`: Python application to run app
+* `TexasRestaurants.xlsx`: Excel file for restaurants in the Dallas-Fort Worth Metroplex
+* `WashingtonRestaurants.xlsx`: Excel file for restaurants in Washington state
 
 ## File Requirements
 
@@ -32,25 +31,21 @@ Example:
 
 | Name        | City    | Type     |
 | ----------- | ------- | -------- |
-| Sushi Place | Seattle | Japanese |
-| Taco Spot   | Austin  | Mexican  |
+| Sushi Place | Dallas | Japanese |
+| Taco Spot   | Dallas  | Mexican  |
 
 ## How to Run
 
-1. Install dependencies:
-   pip install pandas ttkbootstrap openpyxl
+1. Install libraries:
 
-2. Run the application:
-   python RestaurantRandomizer.py
+   `pip install pandas ttkbootstrap openpyxl`
 
-## Project Structure
+3. Run the application:
 
-* RestaurantRandomizer.py → Main application file
-* TexasRestaurants.xlsx → Excel file for restaurants in the Dallas-Fort Worth Metroplex
-* WashingtonRestaurants.xlsx → Excel file for restaurants in Washington state
+   `python RestaurantRandomizer.py`
+
 
 ## Future Improvements
 * Add ratings or ranking system
 * Save favorite restaurants
-* Add map integration (Google Maps API)
 
