@@ -1,56 +1,101 @@
-import tkinter as tk
-from tkinter import messagebox
-import random
-import string
-import pyperclip
+import tkinter as tk  # GUI
+import secrets        # Will be harder to predict than random library
+import string         # Need predefined character sets
+import pyperclip      # Need to copy text directly to clipboard
 
+# ------------------
+# Functions Section
+# ------------------
 
-def generate_password(length):
-  ''' Function to generate a password of a given length. '''
-    if length < 8 or length > 15:
-        messagebox.showerror("Invalid Length", "Password length must be between 8 and 15 characters.")
-        return ""
-    
+def generate_password(length=12):
+    "Function to create a password with a default length of 12."
+
+    # Allowed characters
     characters = string.ascii_letters + string.digits + string.punctuation
+
+    # Infinite loop until a good password is created
     while True:
-        password = ''.join(random.choice(characters) for i in range(length))
-        if (any(c.islower() for c in password) and any(c.isupper() for c in password) 
-            and any(c.isdigit() for c in password) and any(c in string.punctuation for c in password)):
-            break
-    return password
+        # Picking a secure character X length amount of times and combining into string
+        password = ''.join(secrets.choice(characters) for _ in range(length))
+        
+        # Making sure at least one lowercase and one uppercase letter, one number, and one symbol
+        if (any(c.islower() for c in password) and
+            any(c.isupper() for c in password) and
+            any(c.isdigit() for c in password) and
+            any(c in string.punctuation for c in password)):
+            return password 
 
-def on_generate_clicked():
-  ''' Function to handle the event when the "Generate Password" button is clicked. '''
-    try:
-        length = int(length_entry.get())
-        password = generate_password(length)
-        password_entry.delete(0, tk.END)
-        password_entry.insert(0, password)
-    except ValueError:
-        messagebox.showerror("Invalid Input", "Please enter a valid number.")
+def generate():
+    "Function that is triggered when the 'generate' button is clicked."
+    password = generate_password() # Calling previous function
+    password_var.set(password) # Updating UI  with generated password and refresh entry box
+    status_var.set("")
 
-def on_copy_clicked():
-  ''' Function to handle the event when the "Copy to Clipboard" button is clicked. '''
-    password = password_entry.get()
-    pyperclip.copy(password)
-    messagebox.showinfo("Copied", "Password copied to clipboard.")
+def copy():
+    "Function that is triggered when 'copy' button is clicked."
 
-# GUI Setup
-root = tk.Tk()
-root.title("Strong Password Generator")
-root.configure(bg='#87AE73')  
+    # If password exists (not empty) then copy password to clipboard and update UI
+    if password_var.get():
+        pyperclip.copy(password_var.get())
+        status_var.set("Copied")
 
-tk.Label(root, text="Password Length:", bg='#87AE73', fg='white').pack(padx=10, pady=5)
-length_entry = tk.Entry(root)
-length_entry.pack(padx=10, pady=5)
+# -------------
+# Main Section
+#--------------
 
-generate_button = tk.Button(root, text="Generate Password", bg='#A67B5B', fg='white', command=on_generate_clicked)
-generate_button.pack(padx=10, pady=5)
 
-password_entry = tk.Entry(root, width=30)
-password_entry.pack(padx=10, pady=5)
+root = tk.Tk()                    # Initializing main app window
+root.title("Password Generator")  # Window title
+root.geometry("350x200")          # Fixing window size (w x h)
+root.resizable(False, False)      # No resizing since it is such a small app
 
-copy_button = tk.Button(root, text="Copy to Clipboard", bg='#A67B5B', fg='white', command=on_copy_clicked)
-copy_button.pack(padx=10, pady=5)
+# Color palette
+SAGE = "#A3B18A"
+LIGHT_BROWN = "#D2B48C"
+DARK_TEXT = "#2F3E2F"
+
+root.configure(bg=SAGE) # Window background
+
+# Title on main window
+title = tk.Label(root, text="Password Generator", bg=SAGE, fg=DARK_TEXT, font=("Segoe UI", 14, "bold"))
+title.pack(pady=(15, 10)) # Vertical spacing
+
+# Password display
+password_var = tk.StringVar()
+password_entry = tk.Entry(root, textvariable=password_var,
+                          font=("Consolas", 12),
+                          justify="center",
+                          bd=0,
+                          bg="white",
+                          fg=DARK_TEXT,
+                          width=25)
+password_entry.pack(pady=5, ipady=6)
+
+# Buttons frame
+btn_frame = tk.Frame(root, bg=SAGE)
+btn_frame.pack(pady=10)
+
+# Generate button
+generate_btn = tk.Button(btn_frame, text="Generate",
+                         bg=LIGHT_BROWN, fg=DARK_TEXT,
+                         activebackground="#C4A484",
+                         bd=0, padx=10, pady=5,
+                         command=generate)
+generate_btn.grid(row=0, column=0, padx=5)
+
+# Copy Button
+copy_btn = tk.Button(btn_frame, text="Copy",
+                     bg=LIGHT_BROWN, fg=DARK_TEXT,
+                     activebackground="#C4A484",
+                     bd=0, padx=10, pady=5,
+                     command=copy)
+copy_btn.grid(row=0, column=1, padx=5)
+
+# Status message
+status_var = tk.StringVar()
+status_label = tk.Label(root, textvariable=status_var,
+                        bg=SAGE, fg=DARK_TEXT,
+                        font=("Segoe UI", 9))
+status_label.pack()
 
 root.mainloop()
