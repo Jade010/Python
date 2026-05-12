@@ -19,32 +19,13 @@ This project involves predicting students' final grades in secondary education b
 
 ## Prerequisites
   
-**Python:** Make sure you have Python installed on your system or download it here [Official Python Website](https://www.python.org/downloads/).   
+**Python:** Make sure you have Python installed on your system.  
 
-**Jupyter Notebook:** Install Jupyter Notebook to run the .ipynb file. You can install it using pip if you don't already have it:
+**Jupyter Notebook:** I used Jupyter Notebook in VS code to run the .ipynb file. You can install it using pip if you don't already have it:
 
-       pip install notebook
-       
-**Pandas:** Data manipulation and analysis library. Install using:
+       pip install notebook pandas numpy scikit-learn plotly
 
-       pip install pandas
-
-**NumPy:** Library for numerical computations. Install using:
-
-       pip install numpy
-
-**Scikit-Learn:** Machine learning library. Install using:
-
-       pip install scikit-learn
-
-**Plotly:** Interactive graphing library. Install using:
-
-       pip install plotly
-
-## Setup
-1. Clone the repository or download the files into your local machine.
-2. Navigate to the Project Directory.
-3. Launch Jupyter Notebook.
+Launch Jupyter Notebook
 
 
 
